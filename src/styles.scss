@@ -1,0 +1,30 @@
+$primary-color: blue; 
+
+html {
+    font-family: 'Consolas', monospace;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $primary-color;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#app {
+    text-align: center;
+}
+
+.title {
+    font-size: 42px;
+}
+
+.logo {
+    max-width: 256px;
+}
